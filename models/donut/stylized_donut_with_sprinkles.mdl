@@ -1,0 +1,56 @@
+mdl 1.3;
+
+using state import *;
+
+import adobe::mtl::*;
+import adobe::util::*;
+import ::tex::gamma_mode;
+import ::state::normal;
+
+export material donut_Mat(*)
+  = adobe::mtl::standard(
+    translucence : float(0.0),
+    interiorColor : color(1.0, 1.0, 1.0),
+    indexOfRefraction : float(1.5000),
+    metallic : adobe::util::float_texture( texture_2d("stylized_donut_with_sprinkles/donut_metallic.png", ::tex::gamma_linear) ),
+    baseColor : adobe::util::color_texture( texture_2d("stylized_donut_with_sprinkles/donut_baseColor.png", ::tex::gamma_srgb) ),
+    roughness : adobe::util::float_texture( texture_2d("stylized_donut_with_sprinkles/donut_roughness.png", ::tex::gamma_linear) ),
+    density : float(0),
+    glow : adobe::util::float_texture( texture_2d("stylized_donut_with_sprinkles/donut_glow.png", ::tex::gamma_linear) ),
+    opacity : adobe::util::float_texture( texture_2d("stylized_donut_with_sprinkles/donut_opacity.png", ::tex::gamma_linear) ),
+    normal : adobe::util::normal_texture( texture_2d("stylized_donut_with_sprinkles/donut_normal.png", ::tex::gamma_linear) ),
+    height : float(0.5),
+    heightScale : float(1.0)
+    );
+
+export material sprinkles_Mat(*)
+  = adobe::mtl::standard(
+    translucence : float(0.0),
+    interiorColor : color(1.0, 1.0, 1.0),
+    indexOfRefraction : float(1.5000),
+    metallic : adobe::util::float_texture( texture_2d("stylized_donut_with_sprinkles/sprinkles_metallic.png", ::tex::gamma_linear) ),
+    baseColor : adobe::util::color_texture( texture_2d("stylized_donut_with_sprinkles/sprinkles_baseColor.png", ::tex::gamma_srgb) ),
+    roughness : adobe::util::float_texture( texture_2d("stylized_donut_with_sprinkles/sprinkles_roughness.png", ::tex::gamma_linear) ),
+    density : float(0),
+    glow : adobe::util::float_texture( texture_2d("stylized_donut_with_sprinkles/sprinkles_glow.png", ::tex::gamma_linear) ),
+    opacity : adobe::util::float_texture( texture_2d("stylized_donut_with_sprinkles/sprinkles_opacity.png", ::tex::gamma_linear) ),
+    normal : adobe::util::normal_texture( texture_2d("stylized_donut_with_sprinkles/sprinkles_normal.png", ::tex::gamma_linear) ),
+    height : float(0.5),
+    heightScale : float(1.0)
+    );
+
+export material frosting_Mat(*)
+  = adobe::mtl::standard(
+    translucence : float(0.0),
+    interiorColor : color(1.0, 1.0, 1.0),
+    indexOfRefraction : float(1.5000),
+    metallic : adobe::util::float_texture( texture_2d("stylized_donut_with_sprinkles/frosting_metallic.png", ::tex::gamma_linear) ),
+    baseColor : adobe::util::color_texture( texture_2d("stylized_donut_with_sprinkles/frosting_baseColor.png", ::tex::gamma_srgb) ),
+    roughness : adobe::util::float_texture( texture_2d("stylized_donut_with_sprinkles/frosting_roughness.png", ::tex::gamma_linear) ),
+    density : float(0),
+    glow : adobe::util::float_texture( texture_2d("stylized_donut_with_sprinkles/frosting_glow.png", ::tex::gamma_linear) ),
+    opacity : adobe::util::float_texture( texture_2d("stylized_donut_with_sprinkles/frosting_opacity.png", ::tex::gamma_linear) ),
+    normal : adobe::util::normal_texture( texture_2d("stylized_donut_with_sprinkles/frosting_normal.png", ::tex::gamma_linear) ),
+    height : float(0.5),
+    heightScale : float(1.0)
+    );

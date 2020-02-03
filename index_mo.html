@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="ecc,ECC,ecc comp.,...">
+    <meta name="description" content="ここに説明文を設定">  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@twitteraccount">
+    <meta property="og:site_name" content="サイト名">
+    <meta property="og:title" content="サイトタイトル">
+    <meta property="og:description" content="サイト説明文">
+    <!-- <meta property="og:url" content="https://www.hogehoge.com">
+    <meta property="og:image" content="https://www.hogehoge.com./hoge.jpg"> -->
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="400">
+    <meta property="og:type" content="website">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/><!-- スマホでサイズの自動調整をオフにする-->
+    <!-- <link rel="canonical" hreflang="http://">
+    <link rel="alternate" type="" title="" href="http://"> スマホとPCで分ける時-->
+    <!-- <link rel="shortcut icon" href="http://www.hoge.hoge/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="apple-touch-icon" href="http://www.hoge.hoge/logo.png">   -->
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/ahooo_mobile.css">
+    <script type="text/javascript" src="js/three.min.js" ></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- <script type="text/javascript" src="js/three.js"></script> -->
+    <!-- <script type="text/javascript" src="js/MTLLoader.js" ></script>
+    <script type="text/javascript" src="js/OBJLoader.js" ></script> -->
+    <script src="js/GLTFLoader.js"></script>
+    <script type="text/javascript" src="js/OrbitControls.js"></script>
+    <!-- <script type="text/javascript" src="js/baka.js"></script> -->
+    <script src="js/ahooo.js"></script>        
+
+        <title>Portfolio</title>
+  </head>
+    <body>
+        <div id="main_canvas">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <div class="hidden contentsWrap">
+            <div class="filter"></div>
+            <div class="wrap">
+                <div class="topLine"></div>
+                <div class="bottomLine"></div>
+
+                <!-- ずっち -->
+                <div class="contents contentsDutti" style="display: none;">
+                    <h2 class="worksName">ずっち</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_dutti.jpg" alt="" class="img_size img1">
+                        <img src="img/image_dutti2.jpg" alt="" class="img_size img2">
+                    </p>
+                    <a href="https://moo-syk.ssl-lolipop.jp/hacku2018/web/main.html" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">サイトを見る</div>
+                        </div>                        
+                    </a>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：1年生&nbsp;&nbsp;&nbsp;&nbsp;期間：2週間<br><br>
+                            Yahoo! JAPANさん主催のHack U 2018 参加作品です。<br>
+                            話すと相づちを打ってくれるサービスです。<br>
+                            女の子、男の子、猫、金魚の4キャラクターがおり、
+                            相づちは全部で100種類以上！<br>
+                            話かけると必ず相づちを打ってくれますよ。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html ,css, javascript, live2D, 音声認識, PhotoShop</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">企画, javascript, live2D( モーション)</p>
+                    </div>
+                </div>
+
+                <!--assraport -->
+                <div class="contents contentsAssra" style="display: none;">
+                    <h2 class="worksName">Assraport</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_asrapot.jpg" alt="" class="img_size img1">
+                        <img src="img/image_asrapot2.jpg" alt="" class="img_size img2">
+                    </p>
+                    <a href="http://click.ecc.ac.jp/ecc/rkamiura/assraport/asraport_index.html" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">サイトを見る</div>
+                        </div>                        
+                    </a>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：2年生&nbsp;&nbsp;&nbsp;&nbsp;期間：半年<br><br>
+                            企業様に依頼されて制作した求人促進サイトになります。<br>
+                            伸び悩む中途採用への応募を促し、かつ学生らしい考え方や目を引くようなデザインを盛り込んだものにして欲しいという要望に対し、スクロールすると横に移動する新しいアピローチを試みました。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css, javascript, jquery, PhotoShop</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">個人制作物です。</p>
+                    </div>
+                </div>
+
+                <!-- penging -->
+                <div class="contents contentsPenging" style="display: none;">
+                    <h2 class="worksName">Penging</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_penging1.jpg" alt="" class="img_size img1">
+                        <img src="img/image_penging2.jpg" alt="" class="img_size img2">
+                    </p>
+                    <a href="http://click.ecc.ac.jp/ecc/rkamiura/Penging/Penging/index.html" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">サイトを見る</div>
+                        </div>                        
+                    </a>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：1年生&nbsp;&nbsp;&nbsp;&nbsp;期間：半年<br><br>
+                            第2回専門学校HTML5作品アワードIMAKE賞(企業賞)を受賞した作品です。<br>
+                            エコ、万歩計、ゲームを組み合わせた作品です。歩いた歩数に応じて卵を購入したり、キャラを育てることができます。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css, javascript, adobeXD, PhotoShop</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">企画, デザイン, コーディング</p>
+                    </div>
+                </div>
+
+                <!-- DigitalGALAXY -->
+                <div class="contents contentsGalaxy" style="display: none;">
+                    <h2 class="worksName">DigitalGALAXY</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_galaxy.jpg" alt="" class="img_size img1">
+                        <img src="img/image_galaxy2.jpg" alt="" class="img_size img2">
+                    </p>
+                    <a href="https://youtu.be/i9ao7DRxVAk" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">動画を見る</div>
+                        </div>
+                    </a>    
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：2年生&nbsp;&nbsp;&nbsp;&nbsp;期間：2ヶ月<br><br>
+                            有志のメンバーを集め、学校の文化祭や展示会で展示のために制作した作品です。<br>
+                            来場者の方が描いた絵をスキャンすると、目の前のスクリーンに現れて動くので、一緒に写真を撮ったりして楽しむことができます。<br>
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css, javascript, jquery, php, MySQL</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">チームリーダー, 企画, モーションプログラミング, php</p>
+                    </div>
+                </div>
+
+                <!-- FFF act2-->
+                <div class="contents contentsFffact2" style="display: none;">
+                    <h2 class="worksName">F-3 act2</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_FFF_act2.jpg" alt="" class="img_size img1">
+                        <img src="img/image_FFF_act2_2.jpg" alt="" class="img_size img2">
+                    </p>
+                    <div class="link">
+                        <a href="https://youtu.be/V-uGi1h2HaM" target="works">
+                            <div class="linkBtn linkBtn2">
+                                <div class="linkText">動画1を見る</div>
+                            </div>                        
+                        </a>
+                        <a href="https://youtu.be/ORR42U49shA" target="works">
+                            <div class="linkBtn linkBtn2">
+                                <div class="linkText">動画2を見る</div>
+                            </div>                        
+                        </a>
+                    </div>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：2年生&nbsp;&nbsp;&nbsp;&nbsp;期間：1ヶ月<br><br>
+                            CEATEC 2019 への出展作品です。<br>
+                            前身であるF-3を昇華させ、ARを用いたライブグッズを企画しました。<br>
+                            周囲の音によって3Dのイラストが変化する服、キャラが座っているように見えるリストバンド、メッセージが出るカバンの3つを制作しました。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">processing, Blender, Vroid, Unity, Vuforia, PhotoShop, 音声解析</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">チームリーダー, 企画, procesing, Unity</p>
+                    </div>
+                </div>
+
+                <!-- FFF -->
+                <div class="contents contentsFff" style="display: none;">
+                    <h2 class="worksName">F-3</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_FFF_act1_2.jpg" alt="" class="img_size img1">
+                        <img src="img/image_FFF_act1_3.jpg" alt="" class="img_size img2">
+                    </p>
+                    <div class="link">
+                        <a href="http://click.ecc.ac.jp/ecc/toka/F-3/" target="works">
+                            <div class="linkBtn linkBtn2">
+                                <div class="linkText">プロモサイト</div>
+                            </div>                        
+                        </a>
+                        <a href="https://youtu.be/FtxZUBEPTiU" target="works">
+                            <div class="linkBtn linkBtn2">
+                                <div class="linkText">動画を見る</div>
+                            </div>                        
+                        </a>    
+                    </div>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：2年生&nbsp;&nbsp;&nbsp;&nbsp;期間：2週間<br><br>
+                            Yahoo! JAPANさん主催のHack U 2019 参加作品です。<br>
+                            カメラで服のデザイン柄を見ると、ARによってデザインが変化して見えます。天気や位置情報、曜日でデザインが変化するものも作りました。<br>
+                            こんなものが未来にあふれていたら面白いなぁという思いから制作に至りました。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css , javascript, AR.js, PhotoShop</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">チームリーダー, 企画, AR.js</p>
+                    </div>
+                </div>
+
+                <!-- ペッツステイ -->
+                <div class="contents contentsPetstay" style="display: none;">
+                    <h2 class="worksName">PetStay</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_petstay.jpg" alt="" class="img_size img1">
+                        <img src="img/image_petstay2.jpg" alt="" class="img_size img2">
+                    </p>
+                    <div class="link">
+                        <a href="http://click.ecc.ac.jp/ecc/toka/petstay/petstay.html" target="works">
+                            <div class="linkBtn linkBtn2">
+                                <div class="linkText">スマホサイト</div>
+                            </div>                        
+                        </a>
+                        <a href="https://youtu.be/SIQ5LWKP2zE" target="works">
+                            <div class="linkBtn linkBtn2">
+                                <div class="linkText">アプリ動画</div>
+                            </div>                        
+                        </a>    
+                    </div>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：2年生&nbsp;&nbsp;&nbsp;&nbsp;期間：半年<br><br>
+                            ペットを飼ってる人が、同じ種類のペットの飼育経験がある人を探し、有料でペットを預けることができるサービスです。<br>
+                            犬猫以外の動物はペットホテルの利用などが難しく、このようなサービスがあると便利に思ったので企画しました。
+
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css , javascript, PhotoShop, Monaca</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">チームリーダー, 企画, アプリのコーディング</p>
+                    </div>
+                </div>
+
+                <!-- candlenight -->
+                <div class="contents contentsCandle" style="display: none;">
+                    <h2 class="worksName">フライヤー</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_candle.jpg" alt="" class="img_size img1">
+                    </p>
+                    <a href="img/image_candle2.jpg" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">拡大して見る</div>
+                        </div>
+                    </a>    
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：1年生&nbsp;&nbsp;&nbsp;&nbsp;期間：2週間<br><br>
+                            第9回中崎町キャンドルナイト済美冬祭りにて実際にフライヤーとして使用して頂きました。<br>
+                            イベントに対して温かみのあるイメージがわくように、PhotoShopで描いた絵と丸みのあるフォントを使用しています。<br>
+
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">PhotoShop, Illustrator</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">個人制作です。</p>
+                    </div>
+                </div>
+
+
+
+
+                <!--fireworks -->
+                <div class="contents contentsFireworks" style="display: none;">
+                    <h2 class="worksName">Web花火</h2>
+                    <p class="imgWrap">
+                        <img src="img/images_fireworks.jpg" alt="" class="img_size img1">
+                        <!-- <img src="img/images_fireworks.jpg" alt="" class="img_size img2"> -->
+                    </p>
+                    <a href="http://u787738839-raika-com.hostingerapp.com/fireworks/indexFire.html" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">サイトを見る</div>
+                        </div>                        
+                    </a>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：2年生&nbsp;&nbsp;&nbsp;&nbsp;期間：3週間<br><br>
+                            主にprocessingというプログラミング言語を用いて制作した花火になります。<br>
+                            広がり方や爆発のしかた、花火の形などを計算して作りました。<br>
+                            円形とハート型の2種類の花火を見ることができます。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css, javascript, p5.js, processing</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">個人制作物です。</p>
+                    </div>
+                </div>
+
+                <!-- culcuration -->
+                <div class="contents contentsCulcuration" style="display: none;">
+                    <h2 class="worksName">ios電卓をJSで</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_culcuration.jpg" alt="" class="img_size img1">
+                        <!-- <img src="img/images_fireworks.jpg" alt="" class="img_size img2"> -->
+                    </p>
+                    <a href="http://click.ecc.ac.jp/ecc/rkamiura/culcuration/" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">サイトを見る</div>
+                        </div>                        
+                    </a>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：2年生&nbsp;&nbsp;&nbsp;&nbsp;期間：2週間<br><br>
+                            iPhoneの電卓をJavaScriptで表現できないかと制作したものになります。<br>
+                            単純な計算機だけなら簡単に作れますが、細かいところまで作り込むとなると大変な部分が多くアルゴリズムの勉強になりました。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css, javascript</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">個人制作物です。</p>
+                    </div>
+                </div>
+
+                <!-- linkcare -->
+                <div class="contents contentsLinkcare" style="display: none;">
+                    <h2 class="worksName">ケアリンク</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_carelink1.jpg" alt="" class="img_size img1">
+                        <img src="img/image_carelink2.jpg" alt="" class="img_size img2">
+                    </p>
+                    <a href="http://u787738839-raika-com.hostingerapp.com/linkcare/main.html" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">サイトを見る</div>
+                        </div>                        
+                    </a>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：1年生&nbsp;&nbsp;&nbsp;&nbsp;期間：2週間<br><br>
+                            1年生の夏休み2週間で行ったグループ制作の作品です。<br>
+                            "中高生が病院で聞く、見る"のテーマを元にグループで企画から制作までを短期間で行いました。<br>
+                            コーディングを全て担当しました。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">企画, コーディング</p>
+                    </div>
+                </div>
+                
+                <!-- umebizin -->
+                <div class="contents contentsUmebizin" style="display: none;">
+                    <h2 class="worksName">梅美人</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_ume1.jpg" alt="" class="img_size img1">
+                        <!-- <img src="img/image_ume1.jpg" alt="" class="img_size img2"> -->
+                    </p>
+                    <a href="http://click.ecc.ac.jp/ecc/rkamiura/umebizin/umebizin_main.html" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">サイトを見る</div>
+                        </div>
+                    </a>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：1年生&nbsp;&nbsp;&nbsp;&nbsp;期間：半年<br><br>
+                            初めて一から企画して作ったWebサイトです。<br>
+                            htmlもcssもあまり理解していない中で、作ったのでおぼつかない出来になっています。<br>
+                            私の成長を感じてもらえる用にと掲載しました。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css, PhotoShop</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">個人制作です。</p>
+                    </div>
+                </div>
+
+                <!-- miyaget -->
+                <div class="contents contentsMiyaget" style="display: none;">
+                    <h2 class="worksName">写真加工機能</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_filter1.jpg" alt="" class="img_size img1">
+                        <img src="img/image_filter4.jpg" alt="" class="img_size img2">
+                    </p>
+                    <a href="http://www.arsumple.16mb.com/Miyaget/ume_irasuto/upload.php" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">サイトを見る</div>
+                        </div>                        
+                    </a>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：2年生&nbsp;&nbsp;&nbsp;&nbsp;期間：半年<br><br>
+                            みやゲット、というお土産代わりにお土産カタログをネットで購入し、知人に送ることができるサービスの、メッセージ機能として作った機能です。<br>
+                            お土産と一緒に写真を油絵風に加工して送れると面白いのでは？と考え、作りました。<br>
+                            写真加工フィルターも自作です。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css, JavaScript, processing, php</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">個人制作です。</p>
+                    </div>
+                </div>
+
+
+                <!-- yonayona -->
+                <div class="contents contentsYonayona" style="display: none;">
+                    <h2 class="worksName">サイトトレース</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_yonayona1.jpg" alt="" class="img_size img1">
+                        <!-- <img src="img/image_ume1.jpg" alt="" class="img_size img2"> -->
+                    </p>
+                    <div class="link">
+                        <a href="http://click.ecc.ac.jp/ecc/rkamiura/yonayona_trace/cording/index..html" target="works">
+                            <div class="linkBtn linkBtn2">
+                                <div class="linkText">作品サイト</div>
+                            </div>                        
+                        </a>
+                        <a href="https://yonayonaale.com/" target="original">
+                            <div class="linkBtn linkBtn2">
+                                <div class="linkText">公式サイト</div>
+                            </div>                        
+                        </a>    
+                    </div>
+
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：2年生&nbsp;&nbsp;&nbsp;&nbsp;期間：1週間<br><br>
+                            よなよなエールというブランドビールのサイトのトレースです。動きが好きなサイトなので参考にしたいと思い、始めました。<br>
+                            使用しているロゴや画像も PhotoShopでトレースしたものを使っています。<br>
+                            随時更新中です。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css, JavaScript, PhotoShop</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">個人制作です。</p>
+                    </div>
+                </div>
+
+
+                <!-- calender -->
+                <div class="contents contentsCalender" style="display: none;">
+                    <h2 class="worksName">JSカレンダー</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_calender1.jpg" alt="" class="img_size img1">
+                        <!-- <img src="img/image_ume1.jpg" alt="" class="img_size img2"> -->
+                    </p>
+                    <a href="http://click.ecc.ac.jp/ecc/rkamiura/calender/" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">サイトを見る</div>
+                        </div>                        
+                    </a>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：2年生&nbsp;&nbsp;&nbsp;&nbsp;期間：1週間<br><br>
+                            JSの練習のために作ったカレンダーです。<br>
+                            掲載していないサイトの制作でカレンダーを使うことがあったのでそのために作りました。<br>
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css, JavaScript</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">個人制作です。</p>
+                    </div>
+                </div>
+
+                <!-- photoshop加工 -->
+                <div class="contents contentsPhotoShop" style="display: none;">
+                    <h2 class="worksName">PhotoShop</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_my_life_clock1.jpg" alt="" class="img_size img1">
+                        <img src="img/image_witch2.jpg" alt="" class="img_size img2">
+                    </p>
+                    <div class="link">
+                        <a href="img/image_my_life_clock1.jpg" target="works">
+                            <div class="linkBtn linkBtn2">
+                                <div class="linkText">拡大して見る</div>
+                            </div>                        
+                        </a>
+                        <a href="img/image_witch1.jpg" target="works">
+                            <div class="linkBtn linkBtn2">
+                                <div class="linkText">拡大してみる</div>
+                            </div>                        
+                        </a>    
+                    </div>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：1年生&nbsp;&nbsp;&nbsp;&nbsp;期間：1週間<br><br>
+                            PhotoShopの練習のために作った作品です。<br>
+                            プログラミングより写真加工したり、合成したりしてる方が好きです。
+
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css, JavaScript</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">個人制作です。</p>
+                    </div>
+                </div>
+
+                <!-- dragon -->
+                <div class="contents contentsIllust" style="display: none;">
+                    <h2 class="worksName">イラスト</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_dragon1.jpg" alt="" class="img_size img1">
+                        <img src="img/image_rabbit1.jpg" alt="" class="img_size img2">
+                    </p>
+                    <div class="link">
+                        <a href="img/image_dragon2.jpg" target="works">
+                            <div class="linkBtn linkBtn2">
+                                <div class="linkText">拡大して見る</div>
+                            </div>                        
+                        </a>
+                        <a href="img/image_rabbit3.jpg" target="works">
+                            <div class="linkBtn linkBtn2">
+                                <div class="linkText">拡大してみる</div>
+                            </div>                        
+                        </a>    
+                    </div>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：1年生&nbsp;&nbsp;&nbsp;&nbsp;期間：1週間<br><br>
+                            名刺用に描いたものです。<br>
+                            1枚目は墨ペンで水墨画風に私の名前に入ってる龍を、2枚目は絵本テイストで好きな生き物を描きました。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">ClipStudioPaint, 色鉛筆</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">個人制作です。</p>
+                    </div>
+                </div>
+
+                <!-- book -->
+                <div class="contents contentsBook" style="display: none;">
+                    <h2 class="worksName">本の表紙</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_book1.jpg" alt="" class="img_size img1">
+                        <!-- <img src="img/image_ume1.jpg" alt="" class="img_size img2"> -->
+                    </p>
+                    <a href="img/image_book2.jpg" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">拡大して見る</div>
+                        </div>                        
+                    </a>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：1年生&nbsp;&nbsp;&nbsp;&nbsp;期間：1週間<br><br>
+                            本の表紙です。Photoshopで練習半分に作ったものです。<br>
+                            文字を書くお仕事もしてるので、気が向いたら中身も書こうかなと思います。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css, JavaScript</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">個人制作です。</p>
+                    </div>
+                </div>
+
+                <!-- 上の列 -->
+                <!-- poo-->
+                <div class="contents contentsPoo" style="display: none;">
+                    <h2 class="worksName">PooPooEnglish</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_poo1.jpg" alt="" class="img_size img1">
+                        <!-- <img src="img/image_ume1.jpg" alt="" class="img_size img2"> -->
+                    </p>
+                    <a href="https://youtu.be/t2-6pBtRfwk" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">動画を見る</div>
+                        </div>
+                    </a>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：2年生&nbsp;&nbsp;&nbsp;&nbsp;期間：1ヶ月<br><br>
+                            幼稚園児や未就学児向けの英語学習サービスです。<br>
+                            うんちをテーマにすることで英語を学習するハードルを下げ、うんちに目線がいくように誘導
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">html, css ,JavaScript, adobeXD, Monaca</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">企画, コーディング、アプリビルド全般</p>
+                    </div>
+                </div>
+
+                <!-- sound-->
+                <div class="contents contentsSound" style="display: none;">
+                    <h2 class="worksName">SoundGALAXY</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_sound1.jpg" alt="" class="img_size img1">
+                        <!-- <img src="img/image_ume1.jpg" alt="" class="img_size img2"> -->
+                    </p>
+                    <a href="https://youtu.be/a9Gf9WXynTU" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">動画を見る</div>
+                        </div>                        
+                    </a>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：2年生&nbsp;&nbsp;&nbsp;&nbsp;期間：2週間<br><br>
+                            ARマーカーによって音楽が変わるカメラアプリとなっています。<br>
+                            コップの底にARマーカーのシールを貼り、それをカメラの置いてある場所にかざすと会場の音楽が変わる、と言う風に使いました。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">Vuforia, Unity, C#, PhotoShop</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">Unity, C#</p>
+                    </div>
+                </div>
+
+                <!-- UM -->
+                <div class="contents contentsUm" style="display: none;">
+                    <h2 class="worksName">本から恐竜が</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_um.jpg" alt="" class="img_size img1">
+                        <!-- <img src="img/image_ume1.jpg" alt="" class="img_size img2"> -->
+                    </p>
+                    <a href="https://youtu.be/t2-6pBtRfwk" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">動画を見る</div>
+                        </div>                        
+                    </a>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：2年生&nbsp;&nbsp;&nbsp;&nbsp;期間：1日<br><br>
+                            本の表紙から恐竜のオブジェクトが出現するカメラアプリです。<br>
+                            ARの練習のために作りました。<br>
+                            本はUnnamedMemory(著:古宮九時)を使わせて頂きました。個人的な利用ですが、許可は一応頂いています。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">Vuforia, Unity</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">個人制作です。</p>
+                    </div>
+                </div>
+
+                <!-- taptap -->
+                <div class="contents contentsTaptap" style="display: none;">
+                    <h2 class="worksName">TapTap</h2>
+                    <p class="imgWrap">
+                        <img src="img/image_taptap.jpg" alt="" class="img_size img1">
+                        <!-- <img src="img/image_ume1.jpg" alt="" class="img_size img2"> -->
+                    </p>
+                    <a href="https://youtu.be/fA9CIyN-sus" target="works">
+                        <div class="linkBtn linkCenter">
+                            <div class="linkText">動画を見る</div>
+                        </div>                        
+                    </a>
+                    <div class="left">
+                        <p class="worksText">
+                            制作年次：2年生&nbsp;&nbsp;&nbsp;&nbsp;期間：1日<br><br>
+                            processingと言う言語で、円をタップすると色が変わってひたすら分裂していくだけのアプリです。<br>
+                            processingの練習とアプリのビルド確認のために作りました。
+                        </p>
+                        <p class="skillTitle">使用技術&nbsp;&nbsp;&nbsp;使用ツール</p>
+                        <p class="skill">processing</p>
+                        <p class="myChargeTitle">担当箇所</p>
+                        <p class="myCharge">個人制作です。</p>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                <p><img src="img/battu.png" alt="閉じる" class="battu"></p>
+            </div>
+        </div>
+        <!-- <iframe class="movie movieGalaxy" width="100%" src="https://www.youtube.com/embed/i9ao7DRxVAk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        
+        <script src="js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+newmtl frosting_Mat
+Ni 1.500
+Ka 0 0 0
+Pm 0
+d 1.0
+Ke 0.0
+Kd 0.843 0.148 0.399
+adobe_map_normal stylized_donut_with_sprinkles/frosting_normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_map_roughness stylized_donut_with_sprinkles/frosting_roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0
+Ns 16
+adobe_translucence 0.0
+newmtl donut_Mat
+Pr 0.773
+Ni 1.500
+Ka 0 0 0
+Pm 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal stylized_donut_with_sprinkles/donut_normal.png
+map_Kd stylized_donut_with_sprinkles/donut_baseColor.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0
+Ns 16
+adobe_translucence 0.0
+newmtl sprinkles_Mat
+Ni 1.500
+Ka 0 0 0
+Pm 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal stylized_donut_with_sprinkles/sprinkles_normal.png
+map_Kd stylized_donut_with_sprinkles/sprinkles_baseColor.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_map_roughness stylized_donut_with_sprinkles/sprinkles_roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0
+Ns 16
+adobe_translucence 0.0
